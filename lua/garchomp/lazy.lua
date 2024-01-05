@@ -16,7 +16,7 @@ local plugins = {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.5',
         -- or                              , branch = '0.1.x',
-        dependencies = { 'nvim-lua/plenary.nvim' }
+        dependencies = { 'nvim-lua/plenary.nvim' },
     },
     -- Themes
     {
@@ -72,6 +72,8 @@ local plugins = {
     { 'hrsh7th/cmp-nvim-lsp' },
     { 'hrsh7th/nvim-cmp' },
     { 'L3MON4D3/LuaSnip' },
+    -- Copilot
+    { "github/copilot.vim" }
 }
 
 -- Lazy plugin manager
