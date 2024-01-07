@@ -12,6 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
+    -- Telescope
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.5',
@@ -30,6 +31,13 @@ local plugins = {
         name = "gruvbox",
         lazy = false,
         priority = 1000,
+    },
+    {
+        "craftzdog/solarized-osaka.nvim",
+        name = 'solarized-osaka',
+        lazy = false,
+        priority = 1000,
+        opts = {},
     },
     -- Treesitter
     {
