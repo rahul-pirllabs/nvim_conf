@@ -21,23 +21,16 @@ local plugins = {
     },
     -- Themes
     {
-        "rose-pine/neovim",
-        name = 'rose-pine',
-        lazy = false,
-        priority = 1000,
-    },
-    {
         "ellisonleao/gruvbox.nvim",
         name = "gruvbox",
         lazy = false,
         priority = 1000,
     },
     {
-        "craftzdog/solarized-osaka.nvim",
-        name = 'solarized-osaka',
+        "Mofiqul/vscode.nvim",
+        name = "vscode",
         lazy = false,
         priority = 1000,
-        opts = {},
     },
     -- Treesitter
     {
@@ -81,7 +74,7 @@ local plugins = {
     { 'hrsh7th/nvim-cmp' },
     { 'L3MON4D3/LuaSnip' },
     -- Copilot
-    { "github/copilot.vim" }
+    -- { "github/copilot.vim" }
 }
 
 -- Lazy plugin manager

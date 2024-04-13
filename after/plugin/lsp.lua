@@ -36,7 +36,7 @@ lsp_zero.format_on_save({
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = { 'tsserver', 'rust_analyzer', 'pyright' },
+    ensure_installed = { 'pyright', 'lua_ls' },
     handlers = {
         lsp_zero.default_setup,
         lua_ls = function()
