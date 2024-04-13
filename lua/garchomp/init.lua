@@ -1,4 +1,4 @@
 require("garchomp.remap")
-require("garchomp.lazy")
 require("garchomp.set")
+require("garchomp.lazy")
 
